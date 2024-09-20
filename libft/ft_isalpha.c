@@ -6,11 +6,11 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 10:55:20 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/20 10:58:42 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/20 11:54:35 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' || c <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }

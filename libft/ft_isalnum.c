@@ -6,11 +6,11 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 11:10:16 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/20 11:23:49 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/20 11:54:42 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalnum(char c)
+int	ft_isalnum(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
 		|| (c >= '0' && c <= '1'));

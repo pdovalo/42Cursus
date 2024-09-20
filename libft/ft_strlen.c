@@ -6,11 +6,11 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 11:49:26 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/20 12:15:46 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/20 13:20:01 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+unsigned int	ft_strlen(const char *str)
 {
 	int	i;
 

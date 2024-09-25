@@ -6,11 +6,14 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 12:54:20 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/20 13:18:21 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/25 14:12:23 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_bzero(void *str, unsigned int n)
+#include <strings.h>
+#include <libft.h>
+
+void	*ft_bzero(void *str, size_t n)
 {
 	unsigned int	i;
 	char			*str_a;

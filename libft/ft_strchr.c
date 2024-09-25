@@ -6,11 +6,12 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 17:21:38 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/25 13:26:48 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/25 14:14:51 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
+#include <libft.h>
 
 char	*ft_strchr(const char *s, int c)
 {

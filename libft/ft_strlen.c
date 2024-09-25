@@ -6,11 +6,14 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 11:49:26 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/20 13:20:01 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/25 14:15:51 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned int	ft_strlen(const char *str)
+#include <string.h>
+#include <libft.h>
+
+size_t	ft_strlen(const char *str)
 {
 	int	i;
 

@@ -6,11 +6,12 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 13:57:37 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/20 14:38:06 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/25 14:01:27 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
+
 void	*ft_memmove(void *dest, const void *src, unsigned int n)
 {
 	unsigned int	i;
@@ -29,7 +30,7 @@ void	*ft_memmove(void *dest, const void *src, unsigned int n)
 	temp_dest = dest_a;
 	return (dest_a);
 }
-
+/*
 int	main(void)
 {
 	char src[] = "Start stop";
@@ -38,3 +39,4 @@ int	main(void)
 
 	return (0);
 }
+*/

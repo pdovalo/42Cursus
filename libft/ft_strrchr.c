@@ -6,12 +6,11 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 13:27:16 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/25 14:16:45 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/26 11:06:37 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
-#include <string.h>
 #include <libft.h>
 
 static size_t	ft_strlen(const char *str)

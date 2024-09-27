@@ -6,33 +6,23 @@
 /*   By: pdovalo- <pdovalo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 13:27:16 by pdovalo-          #+#    #+#             */
-/*   Updated: 2024/09/26 14:13:22 by pdovalo-         ###   ########.fr       */
+/*   Updated: 2024/09/27 08:39:32 by pdovalo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 #include <libft.h>
 
-static size_t	ft_strlen(const char *str)
+char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
-}
-
-char	*ft_strrchr(const char *s, int c)
-{
-	int	j;
-
-	j = ft_strlen(s) - 1;
-	while (j >= 0)
+	i = ft_strlen(s) - 1;
+	while (i >= 0)
 	{
-		if (s[j] == (char)c)
+		if (s[i] == (char)c)
 			return ((char *)&s[j]);
-		j--;
+		i--;
 	}
 	if (c == '\0')
 		return ((char *)&s[ft_strlen(s)]);
@@ -49,5 +39,4 @@ char	*ft_strrchr(const char *s, int c)
 	else
 		printf("Cáracter no encontrado\n");
 	return (0);
-}
-*/
+}*/
